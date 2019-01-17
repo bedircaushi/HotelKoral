@@ -343,3 +343,23 @@ transition: .2s all ease; */
   padding-bottom: 1px;
   padding-top: 10px;
 }
+
+/* Location */
+.email-form{
+  width:60%;
+}
+.email-form, .map{
+  display: inline-block;
+  margin:10%;
+}
+.btn-form{
+  background-color: #34495E;
+  border: none;
+}
+.header-location{
+  font-family: 'Great Vibes', cursive;
+  line-height: 2;
+  text-align: center;
+  color: #34495E;
+  padding-top: 3%;
+}
