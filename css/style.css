@@ -228,9 +228,10 @@ hr{
   text-align: center;
   margin-bottom: 6%;
 }
-.btn-card{
+.btn-card, .btnmodal, .btn-rounded{
   background-color: #34495E;
   border-color: #34495E;
+  color: #fff;
 }
 .btn-card1{
   margin-top: -25px;
@@ -362,4 +363,36 @@ transition: .2s all ease; */
   text-align: center;
   color: #34495E;
   padding-top: 3%;
+}
+.head-gallery{
+  text-align: center;
+  margin-top: 2%;
+}
+.head-gallery1{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+}
+.head-gallery2{
+  font-family: 'Bad Script', cursive;
+}
+.crsl{
+width:80%;
+margin: auto;
+background: transparent;
+transition: all 0.3s ease;
+box-shadow: 12px 12px 25px 0px;
+}
+.crsl-text{
+  opacity: 0.9;
+  color: #34495E;
+
+}
+.btnmodal{
+margin-bottom: 10px;
+}
+.modal-align{
+  margin:2% 38% 5% 38%; 
+  display: inline-block;
+  position: relative;
+
 }
